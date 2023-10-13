@@ -1,0 +1,239 @@
+body
+{
+  background-color:#BADFE7;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  overflow-x: hidden;
+}
+.logo{
+  display: flex;
+justify-content:flex-start;
+align-items: flex-start;
+background-color: #388087;
+
+}
+.head{
+  top: 100px;
+  margin-top: 25px;
+  margin-left: 600px;
+  font-size: 24px;
+}
+.head1{
+  top: 100px;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 24px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:visited {
+  color: #5c5c5c;
+  text-decoration: none;
+}
+a:hover {
+  color: #C2EDCE;
+  text-decoration: none;
+}
+a:active {
+  color: rgb(212, 195, 195);
+  text-decoration: none;
+}
+.contactHead {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+  margin-right: 50px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+
+.content{
+  display: flex;
+}
+
+.address{
+    height: 300px;
+    width: 600px;
+    display: inline-block;
+}
+
+.location{
+  display: flex;
+  align-items: center;
+}
+
+.mail{
+  display: flex;
+  align-items: center; 
+}
+
+.map{
+  border: 2px solid #fff;
+  border-radius: 10px;
+  border-width: 5px;
+  width: 600px; 
+  height: 450px;
+  margin: 20px;
+}
+
+.contact-form {
+  float: right;
+  margin-left: 300px;
+  margin-top: 50px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    
+  }
+  
+  .contact-form label {
+    color: black;
+  }
+  
+
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    background-color: #838383;
+    resize: none;
+    height: 80px;
+    width: 400px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #39bda7;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #39bda7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .social-media{
+    display:grid;
+    height: 170px;
+    width: 100%;
+    place-items: center;
+    background-color:#388087;
+  margin-top: 20%;
+  }
+  
+  .wrap1{
+    display: inline-flex;
+    margin:200px;
+  }
+  ul {
+    display: flex;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li .icons {
+    width: 80px;
+    height: 80px;
+    background-color: #BADFE7;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+  
+  ul li .icons .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
+  
+  ul li .icons:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+  
+  ul li .icons:before {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+  
+  ul li .icons:hover:before {
+    top: 0;
+  }
+  
+  ul li:nth-child(1) .icons:before{
+    background: #3b5999;
+  }
+  
+  ul li:nth-child(2) .icons:before{
+    background: #55acee;
+  }
+  
+  ul li:nth-child(3) .icons:before {
+    background: #E1306C;
+  }
+  
+  ul li:nth-child(4) .icons:before {
+    background: #25D366;
+  }
+  .send-button {
+    text-decoration:none;
+    display:inline-block;
+    background:#25d366;
+    padding:8px 12px;
+    color:#fff;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    border-radius:9999px;
+  }
