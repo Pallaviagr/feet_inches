@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Feet'-Inches"</title>
+    <link rel="icon" href="/icon.png" type="image/png">
+</head>
+<body>
+    <div class="background">
+    <span>  
+       <div class="logo"><img src="logo.jpg"  width="200" height="100">
+        <div class="head"><a href="home.html" >HOME</a></div>
+        <div class="head1"><a href="about.html">ABOUT US</a></div>
+        <div class="head1"><a href="service.html">SERVICES</a></div>
+        
+        <div class="head1"><a href="contact.html">CONTACT US</a></div>
+        <!-- <div class="head1"><a href="login.html">LOGIN/SIGN UP</a></div></div> -->
+    </span>
+    </div>
+    <div class="row1">
+        <div class="color-block first"><img src="front-01.png"></div>
+    
+        <div class="imgBox">
+        <div class="slider">
+            <div class="slides">
+             <!--radio buttons start-->
+               <input type="radio" name="radio-btn" id="radio1">
+               <input type="radio" name="radio-btn" id="radio2">
+               <input type="radio" name="radio-btn" id="radio3">
+               <input type="radio" name="radio-btn" id="radio4">
+             <!--radio buttons end-->
+          
+             <!--slide images start-->
+             <div class="slide first">
+               <img src="o1.png" alt="">
+             </div>
+             <div class="slide">
+                <img src="o2.png" alt="">
+             </div>
+             <div class="slide">
+                <img src="o3.png" alt="">
+             </div>
+             <div class="slide">
+                <img src="o4.png" alt="">
+             </div>
+            <!--slide images end-->
+          
+           
+           <!--automatic navigation end-->
+           </div>
+          
+           <!--manual navigation start-->
+            <div class="navigation-manual">
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            </div>
+           <!--manual navigation end-->
+          </div> 
+          
+          <script type="text/javascript">
+            var counter = 1;
+             setInterval(function(){
+               document.getElementById('radio' + counter).checked = true;
+               counter++;
+                 if(counter > 4){
+                   counter = 1;
+                 }
+             }, 5000);
+            
+                </script>
+    </div>
+    <br>
+</div>
+
+<!-- who we are -->
+<div class="container">
+  <div class="left-text">
+    <p>
+      At "FEET INCHES", we understand that the design of a space plays a crucial role in shaping the way people live and work.<br> Whether it's a cozy home that speaks of warmth and comfort or a dynamic office that fosters creativity and productivity,<br> our team of talented designers is dedicated to creating spaces that leave a lasting impression.</p>
+   
+  </div>
+  <div class="background-image">
+    <img src="back1.png" alt="Background Image" width="100%">
+    <div class ="right-text">
+      <h2>WHO WE ARE?</h2>
+    </div>
+  </div>
+</div>
+
+<!--magic tile card-->
+<div class="wrapper">
+  <div class="card">
+    <img src="o1.png" class="card-img" alt="Image 1">
+    <div class="card-body">
+      <h1 class="card-title">HOME DESIGN</h1>
+    <p class="card-info">We are for you..</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="o2.png" class="card-img" alt="Image 1">
+    <div class="card-body">
+      <h1 class="card-title">INTERIOR DESIGN</h1>
+    <p class="card-info">The bedroom can be a challenging place to make feel well designed, 
+      because it’s all about coziness and functionality. Don’t worry. We are for you..</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="o3.png" class="card-img" alt="Image 1">
+    <div class="card-body">
+      <h1 class="card-title">KITCHEN DESIGN</h1>
+    <p class="card-info">Top tips to get the kitchen layout you need Getting your kitchen 
+      layout right is the most important factor in ensuring a functional and practical kitchen...</p>
+    </div>
+  </div>
+</div>
+
+<!-- why choose us -->
+<div class="heading"> <h1> Why Choose Us?</h1></div>
+<div class="why">
+
+  <div class="pic">
+    <img src="budget-01-01.png">
+    <div class="caption">
+      <br>
+      <h2>Friendly Price</h2>
+      <p>We can design your place in an affordable price</p>
+    </div>
+  </div>
+  <div class="pic">
+    <img src="great quality-01-01.png">
+    <div class="caption">
+      <br>
+      <h2>Great Quality</h2>
+      <p>The quality of the material to be used will be of best quality</p>
+    </div>
+  </div>
+  <div class="pic">
+    <img src="time-01-01.png">
+    <div class="caption">
+      <br>
+      <h2>Best Time</h2>
+      <p>We will design your place in an effective time</p>
+    </div>
+  </div>
+  <div class="pic">
+    <img src="warrant-01-01.png">
+    <div class="caption">
+      <br>
+      <h2>Warranty</h2>
+      <p>We provide 1 month warranty after processing</p>
+    </div>
+  </div>
+</div>
+
+<!-- 4 steps -->
+<div class="row2">
+<div class="heading"><h1>STEPS FOR INTERIOR DESIGN</h1></div>
+<br>
+<div class="wrap">
+  <div><img src="one.png" width="50"></div>
+  <div><img src="two.png" width="50"></div>
+  <div><img src="three.png" width="50"></div>
+  <div><img src="four.png" width="50"></div></div>
+<div><div class="wrap">
+  
+  <div class="box">
+    <img src="book.png" width="50" height="50" alt="">
+    <h2>Book an appointment</h2>
+    
+    
+  </div>
+ 
+  <div class="box">
+    <img src="plan.png" width="50" height="50" alt="">
+    <h2>Planning</h2>
+    
+    
+  </div>
+  <div class="box">
+    <img src="design.png" width="50" height="50" alt="">
+    <h2>Designing</h2>
+    
+    
+  </div>
+  <div class="box">
+    <img src="exe.png" width="50" height="50" alt="">
+    <h2>Execution</h2>
+    
+    
+  </div>
+</div>
+<div style="padding:100"></div>
+</div>
+
+
+
+<!--social media-->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <div class="social-media">
+    <div class="wrap1">
+<ul>
+  <li>
+    <div class="icons">
+    <a href="#">
+
+    <i class="fab fa-facebook-f icon"></i>    </a></div>
+  </li>
+  <li>
+<div class="icons">
+    <a href="#"><i class="fab fa-twitter icon"></i></a></div>
+  </li>
+  <li>
+<div class="icons">
+    <a href="#"><i class="fab fa-instagram icon"></i></a></div>
+  </li>
+  <li>
+<div class="icons">
+    <a href="https://wa.me/7080186764"><i class="fab fa-whatsapp icon"></i></a></div>
+  </li>
+</ul>
+</div> </div>
+</body>
+</html>
